@@ -1,9 +1,13 @@
 *{
     box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto';
+.icon-img{
+    width: 5em;
 }
-img{
-
+a{
+    text-decoration: none;
+    color: $secondaryBlue
+}
+a:hover, a:focus{
+    color: $primaryOrange;
 }

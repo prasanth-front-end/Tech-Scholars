@@ -1,0 +1,53 @@
+.banner{
+    /*background-image: url('../img/digital-solutions-partner.jpg');*/
+    background: linear-gradient(rgba(255, 255, 255, 0.749), rgba(211, 211, 211, 0)), url(../img/digital-solutions-partner.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    padding: 3em 2em;
+    text-align: center;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    h1{
+        margin: 0 0 0.2em 0;
+    }
+}
+.banner-description,  {
+    margin: 0 0 2em 0;
+}
+.banner-top-text{
+    margin: 0 0 0.2em 0;
+    order: -1;
+    text-transform: uppercase;
+}
+
+//Main Section Styles
+.main-section{
+    background-color: $bodyBackground;
+    padding: 3em 1em;
+    text-align: center;
+    h2{
+        margin: 0;
+    }
+    p{
+        margin-bottom: 2em;
+    }
+}
+.features-item{
+    background-color: white;
+    border-bottom: $primaryBlue 2px solid;
+    padding: 3.5em 2em 2em; 
+}
+
+//CTA Simple Section
+.cta-simple{
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    border-color: $borderGrey;
+    padding: 2em;
+    text-align: center;
+ 
+}
