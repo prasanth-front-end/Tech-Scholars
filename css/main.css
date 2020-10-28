@@ -347,8 +347,16 @@ template {
           box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 .icon-img {
-  width: 5em;
+  max-width: 5em;
+}
+
+.icon-img-plus {
+  max-width: 24px;
 }
 
 a {
@@ -381,7 +389,7 @@ h2 {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 h3 {
@@ -410,6 +418,7 @@ h3 {
 .btn-primary:hover, .btn-primary:focus {
   background-color: #2a00b6;
   font-weight: 700;
+  color: white;
 }
 
 .banner {
@@ -478,5 +487,106 @@ h3 {
   border-color: #E1E1E1;
   padding: 2em;
   text-align: center;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.intro h2 {
+  margin: 0;
+}
+
+.intro p {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  text-transform: uppercase;
+  margin: 0 0 1em 0;
+  color: #2a00b6;
+}
+
+.intro-list {
+  padding: 1em 0;
+}
+
+.intro-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2em;
+}
+
+.wrapper-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.wrapper-list-item-1 {
+  padding: 1em;
+}
+
+.wrapper-list-item-2 {
+  padding: 1em;
+}
+
+.wrapper-list-item-2 h4, .wrapper-list-item-2 p {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #3E4044;
+  color: #E1E1E1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper-item-2 {
+  padding: 1em;
+}
+
+.wrapper-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.wrapper-head h2 {
+  color: #E1E1E1;
+  margin: 0;
+}
+
+.wrapper-head p {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */

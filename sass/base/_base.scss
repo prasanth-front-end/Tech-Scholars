@@ -1,9 +1,16 @@
 *{
     box-sizing: border-box;
 }
-.icon-img{
-    width: 5em;
+img{
+    max-width: 100%;
 }
+.icon-img{
+    max-width: 5em;
+}
+.icon-img-plus{
+    max-width: 24px;
+}
+
 a{
     text-decoration: none;
     color: $secondaryBlue

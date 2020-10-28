@@ -49,5 +49,73 @@
     border-color: $borderGrey;
     padding: 2em;
     text-align: center;
- 
+}
+
+//Intro Section
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 4em 2em;
+    text-align: center;
+    h2{
+        margin: 0;
+    }
+    p{
+        order: -1;
+        text-transform: uppercase;
+        margin: 0 0 1em 0;
+        color: $secondaryBlue;
+    }
+}
+.intro-list{
+    padding: 1em 0;
+}
+.intro-details{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.wrapper-list{
+    display: flex;
+    align-items: flex-start;
+}
+.wrapper-list-item-1{
+    padding: 1em;
+}
+.wrapper-list-item-2{
+    padding: 1em;
+
+    h4, p{
+        margin: 0;
+    }
+}
+
+//Join Us Section
+.wrapper{
+    background-color: $wrapperBackground;
+    color: $borderGrey;
+    display: flex;
+    flex-direction: column;    
+}
+.wrapper-item-1{
+
+}
+.wrapper-item-2{
+    padding: 1em;    
+}
+.wrapper-head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1.5em;
+    h2{
+        color: $borderGrey;
+        margin: 0;
+    }
+    p{
+        order: -1;
+        text-transform: uppercase;
+    }
+
 }

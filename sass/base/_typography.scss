@@ -20,7 +20,7 @@ h1{
     @include heading-ss (2rem, 1.2, $fw-bolder);
 }
 h2{
-    @include heading-ss (2rem, 1.5, $fw-bolder);
+    @include heading-ss (2rem, 1.2, $fw-bolder);
 }
 h3{
     @include heading-ss (1.2rem, 1.5, $fw-bolder);
