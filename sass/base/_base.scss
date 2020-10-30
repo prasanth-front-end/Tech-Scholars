@@ -18,3 +18,11 @@ a{
 a:hover, a:focus{
     color: $primaryOrange;
 }
+q, blockquote {
+
+    quotes: "“" "”"; /* one pair */
+
+    /* OR */
+
+    quotes: "“" "”" "‘" "’"; /* two pairs */
+}
